@@ -1,7 +1,6 @@
 # Manage Software Collection repositories and utilities.
 #
 # @example Declaring the class
-#   include ::yum
 #   include ::scl
 #
 # @param gpgkeys

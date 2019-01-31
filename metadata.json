@@ -1,6 +1,6 @@
 {
   "name": "bodgit-scl",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "bodgit",
   "summary": "Puppet Module for managing Software Collections",
   "license": "Apache-2.0",
@@ -44,17 +44,12 @@
     }
   ],
   "tags": [
-    "yum",
     "scl"
   ],
   "dependencies": [
     {
       "name": "puppetlabs/stdlib",
       "version_requirement": ">=4.13.0 <=5.2.0"
-    },
-    {
-      "name": "bodgit/yum",
-      "version_requirement": ">=1.0.0 <2.0.0"
     }
   ]
 }

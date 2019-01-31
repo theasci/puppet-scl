@@ -5,7 +5,6 @@ describe 'scl' do
   it 'should work with no errors' do
 
     pp = <<-EOS
-      include ::yum
       include ::scl
 
       ::scl::collection { 'rh-git29':
